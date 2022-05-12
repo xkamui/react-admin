@@ -1,59 +1,65 @@
-export const menus = {
-  1: {
+export const menus = [
+  {
+    key: 1,
     name: "Contenus",
-    submenus: {
-      1: { name: "Carrousel" },
-      2: { name: "Actualités" },
-      3: { name: "Types actualités" },
-      4: { name: "Encarts" },
-      5: { name: "Encarts par page" },
-      6: { name: "Promotions" },
-      7: { name: "SEO" },
-    },
+    submenus: [
+      { key: 1, name: "Carrousel", icon: "slideshow" },
+      { key: 2, name: "Actualités", icon: "newspaper" },
+      { key: 3, name: "Types actualités", icon: "feed" },
+      { key: 4, name: "Encarts", icon: "dashboard_customize" },
+      { key: 5, name: "Encarts par page", icon: "document_scanner" },
+      { key: 6, name: "Promotions", icon: "savings" },
+      { key: 7, name: "SEO", icon: "history_edu" },
+    ],
   },
-  2: {
+  {
+    key: 2, 
     name: "Boutique",
-    submenus: {
-      1: { name: "Commandes" },
-      2: { name: "Archives" },
-      3: { name: "Frais de port" },
-      4: { name: "Franco de port" },
-      5: { name: "Montants panier" },
-      6: { name: "Maximums panier" },
-    },
+    submenus: [
+      { key: 8, name: "Commandes", icon: "shopping_cart" },
+      { key: 9, name: "Archives", icon: "inventory" },
+      { key: 10, name: "Frais de port", icon: "local_shipping" },
+      { key: 11, name: "Franco de port", icon: "send_time_extension" },
+      { key: 12, name: "Montants panier", icon: "shopping_basket" },
+      { key: 13, name: "Maximums panier", icon: "production_quantity_limits" },
+    ],
   },
-  3: {
+  {
+    key: 3, 
     name: "Catalogue",
-    submenus: {
-      1: { name: "Produits" },
-      2: { name: "Prix" },
-      3: { name: "Stocks" },
-      4: { name: "Familles" },
-      5: { name: "Sous familles" },
-      6: { name: "Types" },
-      7: { name: "Carrousel promos" },
-    },
+    submenus: [
+      { key: 14, name: "Produits", icon: "view_in_ar" },
+      { key: 15, name: "Prix", icon: "price_check" },
+      { key: 16, name: "Stocks", icon: "widgets" },
+      { key: 17, name: "Familles", icon: "category" },
+      { key: 18, name: "Sous familles", icon: "account_tree" },
+      { key: 19, name: "Types", icon: "app_registration" },
+      { key: 20, name: "Carrousel promos", icon: "drive_file_move_outline" },
+    ],
   },
-  4: {
+  {
+    key: 4, 
     name: "Entités",
-    submenus: {
-      1: { name: "Distributeurs" },
-      2: { name: "Utilisateurs" },
-      3: { name: "Inscriptions" },
-      4: { name: "Opt-in" },
-    },
+    submenus: [
+      { key: 21, name: "Distributeurs", icon: "badge" },
+      { key: 22, name: "Utilisateurs", icon: "people" },
+      { key: 23, name: "Inscriptions", icon: "card_membership" },
+      { key: 24, name: "Opt-in", icon: "check_box" },
+    ],
   },
-  5: {
+  {
+    key: 5, 
     name: "Assistance",
   },
-  6: {
+  {
+    key: 6, 
     name: "Paramètres",
-    submenus: {
-      1: { name: "Ribriques" },
-      2: { name: "Administrateurs" },
-      3: { name: "Droits et permissions" },
-      4: { name: "Pays et langues" },
-      5: { name: "Personnalisation" },
-    },
+    submenus: [
+      { key: 25, name: "Rubriques", icon: "menu" },
+      { key: 26, name: "Administrateurs", icon: "admin_panel_settings" },
+      { key: 27, name: "Droits et permissions", icon: "military_tech" },
+      { key: 28, name: "Pays et langues", icon: "public" },
+      { key: 29, name: "Personnalisation", icon: "palette" },
+    ],
   },
-};
+];
