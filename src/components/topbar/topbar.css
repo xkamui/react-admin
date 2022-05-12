@@ -1,0 +1,84 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: var(--topbar-background-color);
+}
+
+/* LOGO */
+.topLogo {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--topbar-text-main-tone);
+  cursor: pointer;
+}
+
+/* NOTIFICATION */
+.topNotifs {
+  display: flex;
+  align-items: center;
+}
+
+.topNotifs .topNotif {
+  position: relative;
+}
+
+.topNotifs .topNotif button {
+  color: var(--topbar-text-read-tone);
+  cursor: pointer;
+}
+
+.topNotifs .topNotif .number {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  color: var(--gui-txt-notifs);
+  border-radius: 50%;
+  background: var(--gui-top-notifs);
+}
+
+/* USER */
+.topUser {
+  margin: 0 15px;
+}
+
+.topUser figure {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topUser figure img {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.425rem;
+  margin-right: 10px;
+}
+
+.topUser figure figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--topbar-text-read-tone);
+}
+
+.topUser figure figcaption span.status {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--topbar-text-read-tone);
+}
