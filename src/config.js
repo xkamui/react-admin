@@ -1,0 +1,1 @@
+export const apiBaseUrl = 'https://www.marc-grondin.com/works/dujardin-salleron/lds-api/index.php/';
