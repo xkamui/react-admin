@@ -1,4 +1,4 @@
-export const menus = [
+export const menusSrc = [
   {
     key: 1,
     name: "Contenus",
